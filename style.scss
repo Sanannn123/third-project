@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  header h3 {
+    width: 45px;
+    font-size: 35px;
+    color: rgb(190, 150, 74);
+    font-family: "Noto Serif TC", serif;
+    margin-top: 5%;
+  }
+
+  main {
+    margin-top: 5%;
+    div img {
+      width: 100%;
+      height: 600px;
+    }
+    div h1 {
+      font-size: 55px;
+      width: 45%;
+      margin-top: 5%;
+      color: #6b645a;
+      font-family: 'Noto Serif TC', serif;
+      line-height: 80px;
+
+    }
+
+    .texts {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+
+    .texts p{
+        width: 40%;
+        justify-content: space-between;
+        word-spacing: 10px;
+        text-align: justify;
+        color: #6b645a;
+    }
+
+    hr {
+        margin-top: 5%;
+    }
+  }
+}
